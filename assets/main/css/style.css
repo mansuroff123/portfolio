@@ -31,11 +31,44 @@
     src: url('./assets/main/fonts/heebo-v22-latin-900.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
   }
 
+:root {
+  --dark-font: #21243D;
+  --btn-color: #FF6464;
+  --link-color: #00A8CC;
+}
+
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
+
+.text_cs {
+  font-family: 'heebo', sans-serif;
+  color: var(--dark-font);
+  font-size: 16px;
+}
+
+.main_title {
+  font-size: 44px;
+  font-weight: 700;
+}
+
+.second_title {
+  font-size: 26px;
+  font-weight: 700;
+}
+
+.link_cs {
+  color: var(--link-color);
+  text-decoration: none;
+}
+
+.link_cs:hover {
+  color: blue;
+}
+
+
 
 /* ----------------- Home Page Section Begin ----------------- */
 
@@ -43,8 +76,21 @@
     height: 75vh;
 }
 
+.btn_cs {
+  background-color: var(--btn-color);
+  color: #fff;
+  font-weight: 500;
+  font-size: 20px;
+}
 
+.btn_cs:hover {
+  background-color: #fc8888;
+  color: #fff;
+}
 
+.recent_text {
+  font-size: 22px;
+}
 
 /* ----------------- Home Page Section End ----------------- */
 
@@ -52,6 +98,12 @@
 /* ----------------- Recent Posts Page Section Begin ----------------- */
 .recent_posts {
   background: #EDF7FA;
+}
+
+.card_cs {
+  border-radius: 4px;
+  box-shadow: 0px 4px 10px 0px rgba(187, 225, 250, 0.25);
+  border: none;
 }
 
 /* ----------------- Recent Posts Page Section End ----------------- */
