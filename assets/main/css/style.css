@@ -83,14 +83,16 @@
   font-size: 20px;
 }
 
+.cat_text {
+  font-size: 22px;
+}
+
 .btn_cs:hover {
   background-color: #fc8888;
   color: #fff;
 }
 
-.recent_text {
-  font-size: 22px;
-}
+
 
 /* ----------------- Home Page Section End ----------------- */
 
@@ -107,6 +109,33 @@
 }
 
 /* ----------------- Recent Posts Page Section End ----------------- */
+
+/* ----------------- Featured Works Section Begin ----------------- */
+.card_year {
+  font-family: 'heebo', sans-serif;
+  font-size: 18px;
+  font-weight: 900;
+  color: #fff;
+  border-radius: 16px;
+  background: #142850;
+  padding: 5px 8px;
+}
+
+/* ----------------- Featured Works Section End ----------------- */
+
+/* ----------------- Footer Section Begin ----------------- */
+
+.footer_main {
+
+}
+
+.social_media a {
+  text-decoration: none;
+}
+
+/* ----------------- Footer Section End ----------------- */
+
+
 
 
 
@@ -136,3 +165,19 @@
     display: block;
   }
 }
+
+@media screen and (max-width: 768px) {
+  .main_title {
+    font-size: 32px;
+  }
+  
+  .second_title {
+    font-size: 22px;
+  }  
+
+  .cat_text {
+    font-size: 16px;
+  }
+}
+
+
