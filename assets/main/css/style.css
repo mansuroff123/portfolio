@@ -57,7 +57,13 @@
 .second_title {
   font-size: 26px;
   font-weight: 700;
+  text-decoration: none;
 }
+
+/* .none_link {
+  text-decoration: none;
+  color: 
+} */
 
 .link_cs {
   color: var(--link-color);
@@ -65,7 +71,7 @@
 }
 
 .link_cs:hover {
-  color: blue;
+  color: rgb(44, 44, 206);
 }
 
 .nav_cs {
