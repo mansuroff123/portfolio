@@ -37,6 +37,10 @@
   --link-color: #00A8CC;
 }
 
+.container_cs {
+  max-width: 960px;
+}
+
 * {
     margin: 0;
     padding: 0;
@@ -60,6 +64,10 @@
   text-decoration: none;
 }
 
+.detail_title {
+  font-size: 34px;
+  font-weight: 700;
+}
 /* .none_link {
   text-decoration: none;
   color: 
